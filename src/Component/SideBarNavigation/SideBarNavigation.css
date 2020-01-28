@@ -1,0 +1,31 @@
+.SideBarNavigation{
+    font-family: 'Enriqueta', sans-serif;
+    /* min-width: 150px; */
+}
+
+.SideBarNavigation li{
+    list-style: none;
+}
+.SideBarNavigation .selected .app-btn{
+    background: brown;
+    color: white; 
+} 
+.SideBarNavigation a{
+    text-decoration: none;
+    color:inherit;
+}
+.SideBarNavigation .folder-link{
+    margin: 15px 0px;
+}
+.SideBarNavigation .folder-list{
+    padding: 5px;
+}
+.SideBarNavigation h3{
+    font-size: .9em;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bca136;
+}
+.SideBarNavigation .go-back-nav{
+    margin-top: 20px;
+}
